@@ -118,6 +118,15 @@ Let's go!
     </target>
 
 	<!-- ================================= 
+          target: report
+                    
+         ================================= -->
+    <target name="report"   depends="go" description="-->fait les erreurs">
+	<mkdir dir="report">
+	<ivy:reporttodir="report"/>
+    </target>
+
+	<!-- ================================= 
           target: generate-src
             'Generates' the class source. It actually just echo a simple java 
             source code to a file. In real life this file would already be
