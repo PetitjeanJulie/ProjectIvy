@@ -122,8 +122,8 @@ Let's go!
                     
          ================================= -->
     <target name="report"   depends="go" description="-->fait les erreurs">
-	<mkdir dir="report">
-	<ivy:reporttodir="report"/>
+	<mkdir dir="report"/>
+	<ivy:report todir="report"/>
     </target>
 
 	<!-- ================================= 
