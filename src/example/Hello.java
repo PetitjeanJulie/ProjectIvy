@@ -24,6 +24,7 @@ public class Hello {
 				if (nombre > monmax) {
 					monmax = nombre;
 				}
+				System.out.println("Nombre lu : " + nombre);
 			}	
 		}
 	}
